@@ -37,8 +37,8 @@ IO.inspect(name)
 
 
 defmodule Main do
-  @spec sum(a :: Integer.t(), b :: Integer.t()) :: Integer.t()
-  def sum(a, b), do: a + b
+  @spec sum(a :: Integer.t(), b :: Integer.t()) :: Integer.t();
+  def sum(a, b), do: a + b;
 end
 
 result = Main.sum(4, 2)

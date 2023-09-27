@@ -12,7 +12,7 @@ defmodule DB do
       %{name: "Helen", age: 29, phone: 3456789012},
       %{name: "Igor", age: 32, phone: 9012345678},
       %{name: "Julia", age: 26, phone: 6789012345},
-      %{name: "Klaus", age: 40, phone: 1234567890}
+      %{name: "Klaus", age: 24, phone: 1234567890}
     ]
   end
 end
